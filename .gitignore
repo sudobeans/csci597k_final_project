@@ -4,3 +4,9 @@ password.txt
 
 .RData
 .Rhistory
+
+htseqResults
+results
+Homo_sapiens.*.gtf
+sorted_bam
+htseqOldResults
