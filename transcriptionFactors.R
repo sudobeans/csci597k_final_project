@@ -53,9 +53,9 @@ graph_from_df <- function(df) {
     geom_text_repel(data = df_labeled, aes(label = `TF`,color = color), size = 2,nudge_x = -0.03, nudge_y = 0.03) + 
     scale_color_identity() + # Label specified genes
     labs(x = "Odds Ratio",
-         y = "FET p-value") +
-    scale_x_continuous(limits = c(0, 6), breaks = seq(0, 6, by = 1)) +  # Set x-axis limits and label frequency
-    scale_y_continuous(limits = c(0, 6), breaks = seq(0, 6, by = 1)) + 
+         y = "-log10(FET p-value)") +
+    # scale_x_continuous(limits = c(0, 6), breaks = seq(0, 6, by = 1)) +  # Set x-axis limits and label frequency
+    # scale_y_continuous(limits = c(0, 6), breaks = seq(0, 6, by = 1)) + 
     theme_minimal() +
     theme(
       plot.title = element_text(hjust = 0.5),
