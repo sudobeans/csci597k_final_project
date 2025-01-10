@@ -10,3 +10,9 @@ results
 Homo_sapiens.*.gtf
 sorted_bam
 htseqOldResults
+.Rproj.user
+STAR
+data
+data_files.zip
+code_files.zip
+fakes
